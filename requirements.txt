@@ -1,0 +1,4 @@
+matplotlib
+nexa
+nvidia-cuda-runtime-cu12 
+nvidia-cublas-cu12

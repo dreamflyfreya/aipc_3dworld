@@ -5,7 +5,7 @@ def generate_image(prompt: str):
     pipe = pipe.to("cuda")
 
     image = pipe(
-        "A cat holding a sign that says hello world",
+        prompt,
         negative_prompt="",
         num_inference_steps=28,
         guidance_scale=7.0,
